@@ -113,6 +113,12 @@
 								<Event name="OnChange">ОрганизацияПриИзменении</Event>
 							</Events>
 						</InputField>
+						<InputField name="ВариантДоставки" id="120">
+							<DataPath>Объект.ВариантДоставки</DataPath>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ВариантДоставкиКонтекстноеМеню" id="121"/>
+							<ExtendedTooltip name="ВариантДоставкиРасширеннаяПодсказка" id="122"/>
+						</InputField>
 						<UsualGroup name="ГруппаПокупатель" id="48">
 							<Title>
 								<v8:item>
